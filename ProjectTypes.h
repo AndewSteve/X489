@@ -5,5 +5,9 @@ typedef struct {
 	int y;
 }Vector2;
 Vector2 Vector2_create(int x, int y);
-void Vector2_assign(const Vector2* ori, const Vector2* other);
+void process();
+void initialCurve();
+void circleMove();
+void collidCheck();
+void barMove(int input);
 #endif
